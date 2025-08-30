@@ -23,7 +23,7 @@ sql-studies/
 
 ## ✅ Progress Tracker
 
--   [ ] SELECT Query
+-   [ x ] SELECT Query
 -   [ ] Data Definition (DDL)
 -   [ ] Data Manipulation (DML)
 -   [ ] Filtering Data
