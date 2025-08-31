@@ -25,7 +25,7 @@ sql-studies/
 
 -   [ x ] SELECT Query
 -   [ x ] Data Definition (DDL)
--   [ ] Data Manipulation (DML)
+-   [ x ] Data Manipulation (DML)
 -   [ ] Filtering Data
 -   [ ] SQL Joins
 -   [ ] SQL SET Operators
