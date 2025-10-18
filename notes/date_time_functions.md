@@ -30,6 +30,64 @@ Returns the last day of a month. But this function does not exists in MySQL, whi
 
 # Format & Casting
 
+## FORMATTING
+
+Changing the format of a values from one to another. Changing how the data looks.
+
+## CASTING
+
+Changing the data type from one to another.
+
+## FORMAT()
+
+Formats a date or time value
+
+```sql
+FORMAT(value, format [,culture(optional)])
+```
+
+Defaul culture: 'en-US'
+
+## CONVERT()
+
+Converts a date or time value to a different data type & Formats the value.
+
+```sql
+CONVERT(data_type, value [,style(optional)])
+```
+
+## CAST()
+
+Converts a value to a specified data type
+
+```sql
+CAST(value as data_type)
+```
+
 # Calculations
 
+## DATEADD()
+
+Adds or subtracts a specific time interval to/from a data.
+
+```sql
+DATEADD(part, interval, date)
+```
+
+## DATEDIFF()
+
+Find the difference between two dates.
+
+```sql
+DATEDIFF(part, start_date, end_date)
+```
+
 # Validation
+
+## ISDATE()
+
+Check if a value is a date. Returns 1 if the string value is a valid date.
+
+```sql
+ISDATE(value)
+```
